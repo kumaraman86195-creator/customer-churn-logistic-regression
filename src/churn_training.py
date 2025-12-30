@@ -42,4 +42,4 @@ joblib.dump(model, r"C:\Users\kumar\customer-churn-logistic\model\logistic_model
 joblib.dump(X.columns.tolist(), r"C:\Users\kumar\customer-churn-logistic\model\feature_columns.pkl")
 joblib.dump(scaler, r"C:\Users\kumar\customer-churn-logistic\model\scaler.pkl")
 
-print("Model saved successfully")
+print("Model saved successfully!")
